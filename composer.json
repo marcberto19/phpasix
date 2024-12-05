@@ -1,0 +1,24 @@
+{
+    "name": "jordivega/phpasix",
+    "description": "Projecte PHP Asix",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "App\\": "App/"
+        },
+        "files" : [
+            "Core/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "jordi",
+            "email": "jordivega@iesebre.com"
+        }
+    ]
+}
